@@ -26,4 +26,5 @@ function removeLastKitten(){
 function removeFirstKitten(){
   let arr = [...kittens];
   arr.shift();
+  return arr;
 }
