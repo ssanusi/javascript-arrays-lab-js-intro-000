@@ -18,3 +18,12 @@ function appendKitten(name){
 function prependKitten(name){
   return [name, ...kittens];
 }
+function removeLastKitten(){
+  arr = [...kittens];
+  arr.pop()
+  return arr;
+}
+function removeFirstKitten(){
+  arr = [...kittens];
+  arr.shift();
+}
