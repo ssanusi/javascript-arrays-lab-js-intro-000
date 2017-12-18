@@ -19,11 +19,11 @@ function prependKitten(name){
   return [name, ...kittens];
 }
 function removeLastKitten(){
-  arr = [...kittens];
+  let arr = [...kittens];
   arr.pop()
   return arr;
 }
 function removeFirstKitten(){
-  arr = [...kittens];
+  let arr = [...kittens];
   arr.shift();
 }
